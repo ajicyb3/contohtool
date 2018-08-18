@@ -1,0 +1,9 @@
+figlet HELLO
+echo "kali ini gw akan bikin tool kalkulator"
+read q
+echo "masukan angka pertama"
+read p
+echo "masukan angka kedua"
+read q
+tambah=$(echo "$p + $q" | bc)
+echo "hasil penambahan = $tambah
